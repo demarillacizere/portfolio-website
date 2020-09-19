@@ -1,8 +1,10 @@
 body{
-    background-color:rgb(4, 35, 44);
-    background-position: 100vh;
+    
+    
 }
 #header{
+    background-color:rgb(4, 35, 44);
+    background-position:top;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -17,34 +19,58 @@ position:-webkit-sticky;
 position:sticky;
 top:0;
 }
+li{
+    list-style: none;
+    padding-bottom:10px;
+}
 nav ul li{
     display:inline-block;
-    list-style: none;
     padding-right:25px;
 }
 nav ul a{
     text-decoration: none;
     color:white;
 }
-nav ul a:hover{
-    color:rgb(224, 114, 41)
-}
 #about-section{
     background-color: whitesmoke;
-    padding:20px 100px;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
 }
 .aboutme{
-   
-    margin-right: 200px;
     line-height:28px;
+    margin:100px 200px 0 100px;
+    
 }
 .aboutme img{
     float: left;
     width:30%;
     border-radius:5px;
     margin-right:25px;
+}
+progress{
+    background-color:darkblue;
+    width: 40%;
+    height:30px;
+}
+#projects{
+ padding:70px 
+}
+#projects-div{
+    display:flex;
+    
+}
+.project-picture{
+    box-shadow:2px 2px 5px rgb(4, 35, 44);
+    padding:2%;
+}
+.project-picture img{
+    width:100%;
+}
+.project-picture a{
+    text-decoration: none;
+    color:rgb(4, 35, 44);
+}
+a:hover{
+    color:rgb(224, 114, 41);
 }
