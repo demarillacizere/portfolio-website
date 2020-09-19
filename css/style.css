@@ -74,3 +74,9 @@ progress{
 a:hover{
     color:rgb(224, 114, 41);
 }
+footer{
+    background-color: black;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
