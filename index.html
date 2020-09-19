@@ -4,44 +4,46 @@
         <title>Demarillac</title>
     </head>
     <body>
-        <div>
-            <div>
+        <div id="container">
+            <div id="header">
                 <h1>IZERE LOUISE DEMARILLAC</h1>
                 <h3>A software engeneer in formation</h3>
                 <nav>
                     <ul>
                         <li><a href="home">Home</a></li>
-                        <li><a href="aboutme">About</a></li>
-                        <li><a href="projects">Projects</a></li>
-                        <li><a href="contacts">Contacts</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
                     </ul>
                 </nav>
             </div>
-            <div>
-                <section id="aboutme">
-                   <h3>A little bit about me</h3>
-                   <div id="profile">
+            <div id="about">
+                <section id="about-section">
+                   <div class="aboutme">
                        <img src="pictures/photo du profil.jpg">
+                       <h3>A little about me</h3>
                        <p>I am called Louise Demarillac Izere,I live in Gisenyi and am a highschool graduate super excited to be studying about coding at Moringa school.
                         <br>Despite growing up with little access to technological devices,I always wanted to know how computers and different online platforms worked and dreamed that one day I will create my own platform, that made me choose to study computer science in my A-level and the WeCode program at Moringa school was the perfect opportunity for me to finally live my dream and get proffessional skills.
                     </p>
                   </div>
-                   <h4>Hobbies and skills</h4>
-                   <p>Apart from coding,I like reading,music,thriller movies and swimming</p>
-                   <p>Thanks to WeCode Program , my web development skills have truly increased !</p>
-                   <button onclick="show()">Click to check my progress</button>
-                   <section id="progress">
-                       <ul>
-                           <li>HTML : <progress id="css" min="0" max="100" value="90"></progress></li>
-                           <li>CSS : <progress id="js" min="0" max="100" value="70"></progress></li>
-                           <li>JS : <progress id="py" max="100" value="40"></progress></li>
-                       </ul>
-                   </section>
+                  <div class="aboutme">
+                    <h4>Hobbies and skills</h4>
+                    <p>Apart from coding,I like reading,music,thriller movies and swimming</p>
+                    <p>Thanks to WeCode Program , my web development skills have truly increased !</p>
+                    <button onclick="show()">Click to check my progress</button>
+                    <section id="progress">
+                        <ul>
+                            <li>HTML : <progress id="css" min="0" max="100" value="90"></progress></li>
+                            <li>CSS : <progress id="js" min="0" max="100" value="70"></progress></li>
+                            <li>JS : <progress id="py" max="100" value="40"></progress></li>
+                        </ul>
+                    </section>
+                  </div>
                 </section>
             </div>
-            <div>
+            <div id="projects">
                 <h3>Projects</h3>
-                <section class="projects">
+                <section class="project-section">
                     <h4>Women Fitness website </h4>
                     <p>This is website about how working women can properly maintain their fitness.I have used html,css and javascript for this project.</p>
                     <section class="project-picture">
@@ -49,7 +51,7 @@
                         <br><a href="https://repl.it/@DemyIzere/164-Custom-Project-1#index.html" target="_blank">Women Body fitness</a>
                     </section>
                 </section>
-                <section class="projects">
+                <section class="project-section">
                     <h4>The Panafrican games website</h4>
                     <p>This websites portraits about different traditional games played in African countries.I have used the html language and css in creating this website</p>
                     <section class="project-picture">
@@ -57,7 +59,7 @@
                         <br><a href="https://repl.it/@DemyIzere/204-Pan-African-Games-Part" target="_blank">Panafrican Games</a>
                     </section>
                 </section>
-                <section class="Projects">
+                <section class="Project-section">
                     <h4></h4>
                 </section>
             </div>
