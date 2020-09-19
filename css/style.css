@@ -80,3 +80,21 @@ footer{
     padding:10px;
     text-align:center;
 }
+input,button{
+    width:30%;
+    height:30px;
+    border-radius:5px;
+}
+textarea{
+    width:30%;
+    border-radius:5px;
+}
+
+#socialapps img{
+    width:40px;
+    margin:30px;
+}
+#socialapps img:hover{
+    background-color:rgba(100,100,100,0.8);
+    border-radius: 5px;
+}
