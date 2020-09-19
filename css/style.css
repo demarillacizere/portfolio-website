@@ -14,10 +14,13 @@ header{
     margin-left:40px;
 }
 h1,h2,h3,h4{
-    font-family:cursive;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    font-style: italic;
 }
 #overlay{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.9);
     z-index: 2;
     width:100%;
     display: flex;
