@@ -1,3 +1,6 @@
+body{
+    font-family: sans-serif;
+}
 header{
     background-image:url(background.jpg);
     background-size: 100%;
@@ -26,6 +29,9 @@ span{
     height:100vh;
 
 }
+h1,h2,h3,h4{
+    font-family: 'Roboto Slab', serif;
+}
 nav{
     width:100%;
     font-size:18px;
@@ -40,7 +46,7 @@ nav ul li{
     display:inline-block;
     padding-right:60px;
 }
-nav ul a{
+a{
     text-decoration: none;
     color:white;
 }
@@ -63,47 +69,68 @@ nav ul a{
 progress{
     width: 40%;
     height:30px;
+    background-color:green;
 }
-#projects{
-    background-color:rgba(210, 210, 210);
-    padding:50px 100px 100px 100px;
+
+#portfolio{
+    grid-gap: 5px;
+    grid-row-gap: ;
 }
-#projects-div{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-.project-tile{
-    width:40%;
-    box-shadow:2px 2px 5px rgb(4, 35, 44);
-    margin:1%;
-    padding:1%;
-    background-color: white;
-}
-.project-picture img{
+#portfolio img{
     width:100%;
 }
-.project-picture a{
-    text-decoration: none;
-    color:rgb(4, 35, 44);
+#portfolio section{
+    position:relative;
 }
-a:hover{
-    color:rgb(224, 114, 41);
+.text1,.text2,.text3,.text4,.text5,.text6{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:0;
+    text-align: left;
+    display: none;
+    font-size:24px;
+    z-index: 2;
+    padding:5% 20%;
+    padding-right: 0;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.mytext{
+    position: absolute;
+    border: solid 2px white;
+    color: white;
+    top:5px;
+    left:5px;
+    font-family: 'Ubuntu', sans-serif;
+    margin:20% 20%;
+    padding:2%;
+}
+.mytext:hover{
+    background-color: white;
+    color:black;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.7);
 }
 footer{
     background-color: black;
     color:white;
     padding:10px;
     text-align:center;
-    font-size:20px;
+    font-size:14px;
 }
 #socialapps img{
     width:40px;
-    margin:10px 30px;
+    margin:20px 30px;
 }
 #socialapps img:hover{
     background-color:rgba(100,100,100,0.8);
     border-radius: 5px;
+}
+.col-lg-4 img{
+    height:35vh;
 }
 @media only screen and (max-width:800px){
     nav{
@@ -115,12 +142,6 @@ footer{
     .aboutme img{
         width:100%;
         float: none;
-    }
-    #projects{
-        padding:30px 10px;
-    }
-    .project-tile{
-        width:100%;
     }
    .aboutme{
        margin:30px 20px;

@@ -39,7 +39,6 @@ h1,h2{
 }
 #portfolio{
     grid-gap: 5px;
-    grid-row-gap: ;
 }
 #portfolio img{
     width:100%;
