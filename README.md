@@ -10,6 +10,12 @@ It  also contains my contact information.
 There are no known bugs.
 ## Technologies Used
 I have used HTML and CSS for this website.
+## Technologies Used
+- HTML
+- CSS
+- Javascript
+- Jquery
+- Markdown
 ## Support and contact details
 If you need more clarifications feel free to contact me on izered3@gmail.com
 ### License
